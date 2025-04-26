@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-600 to-purple-300 font-dm-sans">
+    <div className="min-h-screen bg-gradient-to-br from-gray-600 to-gray-300 font-dm-sans">
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col items-center justify-center text-white p-4 relative">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1536240478700-b869070f9279?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80')] bg-cover bg-center opacity-20"></div>

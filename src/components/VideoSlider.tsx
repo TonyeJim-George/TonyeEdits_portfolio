@@ -10,12 +10,12 @@ const VideoSlider: React.FC = () => {
 
   const videos = [
     "https://res.cloudinary.com/do2jxpjdn/video/upload/v1745688063/images/portraits/Groom_s_staircase_transition_tqas9j.mov",
+    "https://res.cloudinary.com/do2jxpjdn/video/upload/v1752326462/Ena_video_wexajl.mov",
     "https://res.cloudinary.com/do2jxpjdn/video/upload/v1745688204/images/portraits/With_our_parents_vs_with_our_friends_css571.mov",
     "https://res.cloudinary.com/do2jxpjdn/video/upload/v1745687869/images/portraits/Bride_shoes_transition_ectxdq.mov",
     "https://res.cloudinary.com/do2jxpjdn/video/upload/v1743618888/images/portraits/Mum_birthday_short_edit_wc6a7l.mp4",
     "https://res.cloudinary.com/do2jxpjdn/video/upload/v1745688101/Bridesmaid_reveal_bride_yvqnfy.mov",
     "https://res.cloudinary.com/do2jxpjdn/video/upload/v1745688192/Wedding_edit_d7atly.mov",
-    "https://res.cloudinary.com/do2jxpjdn/video/upload/v1743618942/images/portraits/Sad_moments_nuqiat.mp4",
   ];
 
   const toggleMute = (videoId: string) => {

@@ -6,6 +6,17 @@ export default {
       fontFamily: {
         'dm-sans': ['DM Sans', 'sans-serif'],
       },
+      animation: {
+        blink: 'blink 1s step-end infinite', // blinking cursor
+      },
+      keyframes: {
+        blink: {
+          '0%, 100%': { opacity: '0' },
+          '50%': { opacity: '1' },
+        },
+      },
+      // Optional for iOS smoother feel
+      scrollBehavior: ['smooth'],
     },
   },
   plugins: [],
